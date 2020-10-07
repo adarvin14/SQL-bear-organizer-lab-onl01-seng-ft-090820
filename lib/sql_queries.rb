@@ -4,7 +4,7 @@ end
 
 def selects_all_bears_names_and_orders_in_alphabetical_order
   "SELECT names FROM bears
-  ORDER by "
+  ORDER by ASC"
 end
 
 def selects_all_bears_names_and_ages_that_are_alive_and_order_youngest_to_oldest
